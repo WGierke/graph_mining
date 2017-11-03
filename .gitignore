@@ -1,1 +1,5 @@
+# Data
 data/raw/
+
+# iPython
+.ipynb_checkpoints
