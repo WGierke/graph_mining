@@ -30,8 +30,10 @@ Project Organization
         │
         └── visualization  <- Scripts to create exploratory and results oriented visualizations
             └── visualize.py
-
-
-
-
 --------
+
+## Data Preparation
+
+- Put `hackernews.zip` in `data/raw/`  
+- Uncompress the ZIP file: `unzip data/raw/hackernews.zip -d data/raw`  
+- Uncompress the bzip2 files: `bzip2 -d data/raw/*.bz2`
