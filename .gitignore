@@ -1,5 +1,14 @@
+#Python
+__pycache__
+
 # Data
 data/raw/
 
 # iPython
 .ipynb_checkpoints
+
+# PyCharm
+.idea
+
+# Virtual Environment
+venv*
