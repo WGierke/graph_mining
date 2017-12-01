@@ -37,3 +37,4 @@ Project Organization
 - Put `hackernews.zip` in `data/raw/`  
 - Uncompress the ZIP file: `unzip data/raw/hackernews.zip -d data/raw`  
 - Uncompress the bzip2 files: `bzip2 -d data/raw/*.bz2`
+- Make sure that the CSV files are in `data/raw/hackernews/`
