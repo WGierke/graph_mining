@@ -56,7 +56,7 @@ pyLDAvis==2.1.1
 pyparsing==2.2.0
 pytest==3.2.3
 python-dateutil==2.6.1
--e git+https://github.com/igraph/python-igraph.git@8864b46849b031a3013764d03e167222963c0f5d#egg=python-igraph
+-e git+https://github.com/igraph/python-igraph.git@8864b46849b031a3013764d03e167222963c0f5d#egg=python_igraph
 pytz==2017.3
 pyzmq==16.0.3
 qtconsole==4.3.1
@@ -71,6 +71,7 @@ stop-words==2015.2.23.1
 terminado==0.6
 testpath==0.3.1
 tornado==4.5.2
+tqdm==4.19.4
 traitlets==4.3.2
 urllib3==1.22
 wcwidth==0.1.7
