@@ -12,3 +12,4 @@ data/raw/
 
 # Virtual Environment
 venv*
+src/python-igraph
