@@ -17,7 +17,7 @@ def iter_documents(documents):
         yield utils.simple_preprocess(document)
 
 
-class HackernewsCorpus(object):
+class HackernewsCorpus:
     def __init__(self, documents):
         """
         Initialize the HackerNews corpus
