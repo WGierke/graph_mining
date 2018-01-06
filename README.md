@@ -38,3 +38,10 @@ Project Organization
 - Uncompress the ZIP file: `unzip data/raw/hackernews.zip -d data/raw`  
 - Uncompress the bzip2 files: `bzip2 -d data/raw/*.bz2`
 - Make sure that the CSV files are in `data/raw/hackernews/`
+
+## Setup
+
+- Install the required Python libraries  
+`pip install -r requirements.txt`  
+- For topic modeling using MALLET, you have to install [MALLET](http://mallet.cs.umass.edu/) e.g. by  
+`wget http://mallet.cs.umass.edu/dist/mallet-2.0.7.tar.gz && tar zxf mallet-2.0.7.tar.gz`
