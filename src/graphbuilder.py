@@ -1,5 +1,3 @@
-import math
-
 from tqdm import tqdm
 from igraph import Graph
 
@@ -19,9 +17,9 @@ class GraphBuilder:
             author = row['by']
             self._add_non_existent_node(author)
             parent = row['parent']
-            if math.isnan(parent):
+            if not parent:
                 continue
-            parent_df = df[df['id'] == int(parent)]
+            parent_df = df[df['id'] == parent]
             if len(parent_df) == 0:
                 continue
             parent_author = parent_df.iloc[0]['by']
