@@ -18,18 +18,12 @@ Project Organization
     │                         the creator's initials, and a short `-` delimited description, e.g.
     │                         `1.0-jqp-initial-data-exploration`.
     │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
+    ├── report             <- Generated analysis as LaTeX
     │
     ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
     │                         generated with `pip freeze > requirements.txt`
     │
     └── src                <- Source code for use in this project.
-        ├── __init__.py    <- Makes src a Python module
-        │
-        │
-        └── visualization  <- Scripts to create exploratory and results oriented visualizations
-            └── visualize.py
 --------
 
 ## Data Preparation
@@ -45,3 +39,10 @@ Project Organization
 `pip install -r requirements.txt`  
 - For topic modeling using MALLET, you have to install [MALLET](http://mallet.cs.umass.edu/) e.g. by  
 `wget http://mallet.cs.umass.edu/dist/mallet-2.0.7.tar.gz && tar zxf mallet-2.0.7.tar.gz`
+
+## Report
+[Source](https://github.com/WGierke/graph_mining/blob/master/report/Finding_Hidden_Communities_in_HackerNews.pdf)
+![finding_hidden_communities_in_hackernews-1](https://user-images.githubusercontent.com/6676439/38811847-f83141e8-418a-11e8-8cac-7a635b041bba.jpg)
+![finding_hidden_communities_in_hackernews-2](https://user-images.githubusercontent.com/6676439/38811848-f8537f38-418a-11e8-8c9b-49e34c335ee6.jpg)
+![finding_hidden_communities_in_hackernews-3](https://user-images.githubusercontent.com/6676439/38811849-f8776e20-418a-11e8-8512-8b580f47a449.jpg)
+![finding_hidden_communities_in_hackernews-4](https://user-images.githubusercontent.com/6676439/38811850-f89b1622-418a-11e8-8489-e7a5eabd6db3.jpg)
