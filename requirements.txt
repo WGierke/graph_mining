@@ -61,7 +61,7 @@ ptyprocess==0.5.2
 py==1.5.2
 pycairo==1.15.4
 pycparser==2.18
-Pygments==2.2.0
+Pygments==2.7.4
 pyLDAvis==2.1.1
 pyparsing==2.2.0
 pytest==3.3.1
